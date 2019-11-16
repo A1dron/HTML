@@ -79,7 +79,7 @@ window.onload = function() {
 	var Movies = [{
 		Name: "Your Name",
 		Format: "Anime",
-		Genre: "dralma",
+		Genre: "drama",
 		Year: 2016,
 		Rating: 9.5
 	},
