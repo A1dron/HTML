@@ -1,0 +1,133 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	color: white;
+  	background-color: #111617;
+}
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+	padding: 0px 30px;
+}
+
+.table {
+	border: 1px solid yellow;
+	box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+header {
+	background-color: #171b1f;
+	border-bottom: 1px solid red;;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 180px;
+}
+
+body header img { 
+      height: 30px; 
+}
+
+
+header div a {
+	text-decoration: none;
+}
+
+
+.select {
+	/*margin: 20px 0px;*/
+}
+.selectors {
+	margin: 20px 0px;
+	float: left;
+}
+.nav {
+	margin: 20px 0px;
+	float: right;
+}
+
+
+.nav .search {
+      float: right;
+      margin: 20px 0px; } 
+
+.nav .search_btn {
+      background: #171b1f;
+      -webkit-border-radius: 100px;
+      border-radius: 100px;
+      border: 2;
+      padding: 2px 8px;
+      color: white; }
+
+.nav .search_btn:hover { 
+    background-color: gray; } 
+
+table {
+	padding: 20px;
+	border-collapse: collapse;
+}
+
+table tr td {
+	text-align: center;
+	border: 1px solid red;
+}
+
+table tr td img {
+	height: 60px;
+}
+
+.trmain {
+	font-weight: bold;
+}
+
+section:before,
+section:after {
+  	content: "";
+  	display: table;
+} 
+
+section:after {
+  	clear: both;
+}
+
+section {
+  	zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+button {
+	margin: 0;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
+
+
+footer {
+	text-align: center;
+	background-color: #171b1f;
+    border-top: 1px solid red; 
+    padding: 20px 0px;
+}
+
+input {
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+select {
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+button:hover {
+	background-color: #AAA;
+}
+
+select:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,1);
+}
